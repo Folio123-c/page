@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="nmfg.css">
+<script src="nmfg.js"></script>
+</head>
+<body>
+  <div class="container">
+    <br>
+    <div class="form-title">PRODUCT DESCRIPTION</div>
+
+    <div class="main-user-info">
+      <div class="user-input-box">
+        <label for="names">Product Name:</label>
+        <input type="text" placeholder="Product name" id="names" required />
+      </div>
+
+      <div class="user-input-box">
+        <label>Category:</label>
+        <select id="category">
+<option></option>
+        <option>Accessories </option>
+      <option>Electronics </option>
+    <option> Clothes </option>
+  <option>Student Card </option>
+<option> Other documents</option>
+</select>
+        
+      </div>
+      <div class="user-input-box">
+        <label for="email">Email:</label>
+        <input type="text" placeholder="Enter your Email" id="email" required />
+      </div>
+
+       <div class="user-input-box">
+        <label for="date">Date:</label>
+        <input type="date" id="date" required />
+      </div>
+      <div class="user-input-box">        
+<label for="file" style="cursor: pointer;">Upload Image</label>
+<input type="file" id="upload">
+<!-- <img id="outputImage" src='' width="130" /> -->
+<p id="result"></p>
+      </div>
+
+      <div class="user-input-box">
+        <label for="phone">Phone number:</label>
+        <input type="text" placeholder="Enter your Phone numbers" id="phone" required /><br><br><br>
+
+      </div>
+      <div class="btn">
+        <button onclick="save()" id="btn">UPLOAD</button>
+
+      </div>
+    </div>
+  </div>
+  <br>
+  <div id="details">
+    <h2>UPLOADED PRODUCTS LISTS</h2>
+    <br><br>
+  </div>
+  <div id="view">
+    <p id='t'></p>
+  </div>
+  
+</body>
+</html>

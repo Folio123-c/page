@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: none;
+}
+body {
+  display: absolute;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: lightblue; 
+}
+.container {
+  
+ width: 300px;
+  
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+ 
+  border: 3px solid black;
+  border-box-shadow: inset -2px 2px 2px white;
+  height: 600px;
+  align-content: center;
+}
+.form-title{
+ font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  border-bottom: solid 4px black;
+  
+}
+h2{
+   font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  border-bottom: solid 5px black;
+}
+.main-user-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3px;
+  
+  
+}
+.user-input-box:nth-child(2n){
+  justify-content: end;
+  
+}
+.user-input-box{
+  display: flex;
+  flex-wrap: wrap;
+  width 50%;
+  padding-bottom: 0px;
+  
+}
+.user-input-box label{
+  width: 85%;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 5px 0;
+  
+}
+.user-input-box input{
+  height: 30px;
+  width:100%;
+  border-radius: 7px;
+  border: 2px solid green;
+  padding: 0 10px;
+  
+}
+
+#btn{
+  margin: 40px;
+  margin-top: 2px;
+  margin-left: 47px;
+  width: 100%;
+  padding: 10px;
+  background: green;
+
+}
+
+.btn button:hover{
+  border-radius: 5px;
+  color: white;
+ 
+}
+.user-input-box{
+  margin-bottom: 12px;
+  width: 100%;
+}
+.user-input-box:nth-child(2n){
+  justify-content: space-between;
+  
+}
+.main-user-info:{
+max-height: 380px;
+  over-flow: auto;
+}
+.main-user-info:-webkit scrollbar{
+  width: 0;
+}
+.tp{
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+.tp:hover{
+ border-bottom: solid 2px green;
+}
+.img-class{
+  width: 33%;
+  height: 33%;
+}
+#more{
+  width: 40%;
+  height: 150px;
+  background-color: grey;
+}
+select{
+  border-radius: 1px solid green;
+}
